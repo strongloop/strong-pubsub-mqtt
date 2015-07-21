@@ -19,6 +19,8 @@
   "devDependencies": {
     "chai": "^2.1.0",
     "lodash": "^3.3.1",
-    "mocha": "^2.0.0"
+    "mocha": "^2.0.0",
+    "strong-pubsub": "^0.2.5",
+    "strong-pubsub-test": "^0.2.1"
   }
 }
