@@ -1,3 +1,8 @@
+// Copyright IBM Corp. 2015. All Rights Reserved.
+// Node module: strong-pubsub-mqtt
+// This file is licensed under the MIT License.
+// License text available at https://opensource.org/licenses/MIT
+
 var Client = require('strong-pubsub');
 var Adapter = require('../');
 var helpers = require('strong-pubsub-test');
