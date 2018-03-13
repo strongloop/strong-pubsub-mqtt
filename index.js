@@ -73,7 +73,7 @@ Adapter.prototype.connect = function(cb) {
   if(options.connectionTimeout) {
     timer = setTimeout(function() {
       cb(new Error('connection timeout after ' + options.connectionTimeout + 'ms'));
-      firstConnection.close();
+      firstConnection.destroy();
     }, options.connectionTimeout);
   }
 
